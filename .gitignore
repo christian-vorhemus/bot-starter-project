@@ -5,6 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# JS
+*.js
+*.js.map
+
 # Runtime data
 pids
 *.pid

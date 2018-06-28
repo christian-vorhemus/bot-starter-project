@@ -1,0 +1,3 @@
+C:\Users\chvorhem\Source\Repos\RITA\RITA-Core\obj\Debug\RITA-Core.njsprojAssemblyReference.cache
+C:\Users\chvorhem\Source\Repos\RITA\RITA-Core\obj\Debug\RITA-Core.njsproj.CoreCompileInputs.cache
+C:\Users\chvorhem\Source\Repos\RITA\RITA-Core\bin\Microsoft.NodejsTools.WebRole.dll

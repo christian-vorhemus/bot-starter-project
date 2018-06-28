@@ -1,0 +1,10 @@
+﻿{
+  "COM_YES": "Ja",
+  "COM_NO": "Nein",
+  "GRT_HELLO": "Hallo!",
+  "GRT_BYE": "Bis bald!",
+  "HLP_GENERAL": "Ich bin Demonstrationsobjekt damit du weißt, wie man einen Bot in TypeScript entwickelt. Außerdem durchsuche ich Wikipedia für dich, tippe ein Stochwort ein!",
+  "SRC_SEARCHING": "Ich suche Antworten auf diese Frage, moment...",
+  "SRC_RESULTS": "Hier sind die Ergebnisse die ich gefunden habe:",
+  "SRC_OPENARTICLE": "Artikel öffnen"
+}
