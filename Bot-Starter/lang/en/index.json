@@ -4,7 +4,7 @@
   "GRT_HELLO": "Hello!",
   "GRT_BYE": "Bye",
   "HLP_GENERAL": "I am a demonstration object so you know how to develop a bot in TypeScript. I'll also search Wikipedia for you, just type in a search term!",
-  "SRC_SEARCHING": "I'm collecting some answers for this question, one moment...",
+  "SRC_SEARCHING": "I'm looking for some articles for this topic, one moment...",
   "SRC_RESULTS": "Here are the results I found:",
   "SRC_OPENARTICLE": "Open article"
 }
