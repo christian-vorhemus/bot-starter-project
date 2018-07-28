@@ -1,3 +1,0 @@
-C:\Users\chvorhem\Source\Repos\bot-starter-project\Bot-Starter\obj\Debug\Bot-Starter.njsprojAssemblyReference.cache
-C:\Users\chvorhem\Source\Repos\bot-starter-project\Bot-Starter\obj\Debug\Bot-Starter.njsproj.CoreCompileInputs.cache
-C:\Users\chvorhem\Source\Repos\bot-starter-project\Bot-Starter\bin\Microsoft.NodejsTools.WebRole.dll
