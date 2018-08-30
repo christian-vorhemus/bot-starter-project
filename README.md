@@ -27,6 +27,16 @@ Bot-Starter.sln
 ```
 and press F5 to build and run the Bot. The Bot is listening on http://localhost:3978.
 
+Otherwise, just type 
+```
+npm run build
+```
+to build the app and 
+```
+npm start
+```
+to run the Bot.
+
 ### 3) Test the Bot
 
 
