@@ -25,7 +25,7 @@ If you have Visual Studio installed, just open
 ```
 Bot-Starter.sln
 ```
-and press F5 to build and run the Bot. The Bot is listening on http://localhost:1337.
+and press F5 to build and run the Bot. The Bot is listening on http://localhost:3978.
 
 ### 3) Test the Bot
 
