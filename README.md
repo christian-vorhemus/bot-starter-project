@@ -28,7 +28,7 @@ npm install
 to install the necessary node packages. This may take a while.
 
 ### 2) Create a new LUIS app
-In messenger applications, people expect that they can communicate in natural language. Since users can ask many different questions, we need a kind of "switch" to forward a request to the right dialogue. LUIS is such a natural language processing tool, it takes a sentence and categorizes the input.
+In messenger applications, people expect that they can communicate in natural language. Since users can ask many different questions, we need a kind of "switch" to forward a request to the right dialogue. LUIS is such a natural language processing tool, it takes a sentence and categorizes it.
 To create a new LUIS application, go to https://eu.luis.ai/ and log in with your Microsoft account.
 Click on "Import new app" and select the file _BotStarter-LUIS.json_ in the LUIS folder from the source code. You should now see the "Intents" page.
 
@@ -45,7 +45,7 @@ If you have published the Bot in the Europe regions, switch to this tab and copy
 
 <img src="Images/keys.png" width="400" />
 
-Finally, open _Bot-Starter/settings/index.ts_ and replace the variable value with your URI
+Finally, open _Bot-Starter/settings/index.ts_ and replace the variable value of _luisAppUrl_ with your URI
 ```
 export const luisAppUrl = '<PASTE ENDPOINT HERE>';
 ```
