@@ -1,5 +1,5 @@
 # Bot Starter Project
-This is a starter project for bot development using TypeScript + Node.js and Microsoft Bot Framework. The Bot answers question by leveraging the Wikipedia-API and returns a set of relevant articles.
+This is a starter project for bot development using TypeScript + Node.js and Microsoft Bot Framework. The Bot answers questions by leveraging the Wikipedia-API and returns a set of relevant articles.
 
 <p align="center">
   <img src="Images/screen.gif">
