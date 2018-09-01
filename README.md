@@ -1,9 +1,12 @@
 # Bot Starter Project
 This is a starter project for bot development using TypeScript + Node.js and Microsoft Bot Framework. The Bot answers question by leveraging the Wikipedia-API and returns a set of relevant articles.
+<<<<<<< HEAD
 
 <p align="center">
   <img src="Images/screen.gif">
 </p>
+=======
+>>>>>>> 5a5722aff465d1d436aaa437a30de1ca97d06142
 
 ## Getting started
 
@@ -69,4 +72,8 @@ to run the Bot.
 
 ## Investigate the code
 
+<<<<<<< HEAD
 _Coming soon_
+=======
+_Coming soon_
+>>>>>>> 5a5722aff465d1d436aaa437a30de1ca97d06142
