@@ -6,6 +6,10 @@
   "author": {
     "name": "Christian Vorhemus"
   },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
   "devDependencies": {
     "@types/node": "^6.0.87",
     "@types/restify": "^7.2.1"

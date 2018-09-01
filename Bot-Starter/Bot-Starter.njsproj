@@ -45,6 +45,7 @@
     <TypeScriptCompile Include="common\languageService.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="dialogs\defaultDialog.ts" />
     <TypeScriptCompile Include="dialogs\wikipediaSearchDialog.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>

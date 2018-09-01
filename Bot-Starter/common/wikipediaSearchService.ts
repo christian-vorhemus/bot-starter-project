@@ -11,9 +11,14 @@ class WikipediaSearchService {
         this.locale = wikipediaSearchServiceSettings.locale;
     }
 
+    removeHTML(query: string) {
+        return query.replace(/<(?:.|\n)*?>/gm, '');
+    }
+
     search(searchTerm: string): Promise<Array<WikipediaSearchServiceResult>> {
 
         var locale = this.locale;
+        var self = this;
 
         return new Promise(function (resolve, reject) {
 
@@ -38,8 +43,8 @@ class WikipediaSearchService {
                     var queryResults = body["query"]["search"];
                     var searchResults: Array<WikipediaSearchServiceResult> = [];
 
-                    queryResults.forEach(function (result) {
-                        searchResults.push(new WikipediaSearchServiceResult(result.title, result.snippet, "https://" + locale + ".wikipedia.org/wiki/" + encodeURI(result.title)));
+                    queryResults.forEach((result) => {
+                        searchResults.push(new WikipediaSearchServiceResult(result.title, self.removeHTML(result.snippet), "https://" + locale + ".wikipedia.org/wiki/" + encodeURI(result.title)));
                     })
 
                     resolve(searchResults);

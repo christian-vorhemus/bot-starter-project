@@ -1,0 +1,247 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "BotStarter2",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "Help"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "SearchRequest"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "a clockwork orange",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "alexander the great info",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "artificial intelligence",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "barack obama",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "charles darwin origin species",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "china",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "electricity",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "fourier transform",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "go to help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "good afternoon",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good day",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hallo",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help me",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "heyy",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hii",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "i need help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "info simpsons",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "list of capitals of the world",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "ola",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "open help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "quantum mechanics",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "question",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "satya nadella microsoft",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "search for microsoft",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "support",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "tesla",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "united states",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "venice international film festival",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "what can i do?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what can you do for me?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what do you do?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "where is russia?",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "who is bill gates?",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "wiki statistics",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "wikipedia",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "world war ii",
+      "intent": "SearchRequest",
+      "entities": []
+    },
+    {
+      "text": "yo",
+      "intent": "Greeting",
+      "entities": []
+    }
+  ]
+}

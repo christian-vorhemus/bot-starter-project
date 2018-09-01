@@ -1,5 +1,6 @@
 ﻿{
   "COM_YES": "Ja",
+  "COM_DEFAULT": "Das habe ich nicht verstanden, kannst du es anders formulieren?",
   "COM_NO": "Nein",
   "GRT_HELLO": "Hallo!",
   "GRT_BYE": "Bis bald!",

@@ -8,6 +8,8 @@ import { LanguageService } from "./common/languageService";
 import helpDialog from "./dialogs/helpDialog";
 import greetingDialog from "./dialogs/greetingDialog";
 import wikipediaSearchDialog from "./dialogs/wikipediaSearchDialog";
+import defaultDialog from "./dialogs/defaultDialog";
+import wikipediaDialog from "./dialogs/wikipediaSearchDialog";
 
 const connector = new ChatConnector({
     appId,
@@ -26,7 +28,7 @@ ls.loadDictionary();
 ls.loadLocale();
 
 var server = restify.createServer();
-server.listen(process.env.port || process.env.PORT || 3978, function () {
+server.listen(3978, function () {
     console.log("%s listening to %s", server.name, server.url);
 });
 
@@ -34,12 +36,13 @@ server.post("/api/messages", connector.listen());
 
 // Create a bot, store session data in memory (not persistent)
 var inMemoryStorage = new MemoryBotStorage();
-const bot = new UniversalBot(connector, wikipediaSearchDialog);
+const bot = new UniversalBot(connector, defaultDialog);
 bot.set("storage", inMemoryStorage);
 
 // Add library and add dialogs to it
 const globalLibrary = new Library("global");
 globalLibrary.dialog(helpDialog(bot));
+globalLibrary.dialog(wikipediaDialog(bot));
 globalLibrary.dialog(greetingDialog(bot));
 
 // Add library to bot
