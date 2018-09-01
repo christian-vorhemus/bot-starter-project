@@ -14,7 +14,7 @@ If you haven't done it so far, install the following tools:
 3. <a href="https://github.com/Microsoft/BotFramework-Emulator/releases" target="_blank">Bot Framework Emulator</a>
 4. Your favorite IDE (if you need a recommendation... take <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>!)
 
-Alternatvely, you can install Visual Studio with NodeJS Workload.
+Alternatively, you can install Visual Studio with NodeJS Workload.
 
 ### 1) Install the Bot
 Download or clone this repository
