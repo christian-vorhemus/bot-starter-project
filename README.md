@@ -1,12 +1,9 @@
 # Bot Starter Project
 This is a starter project for bot development using TypeScript + Node.js and Microsoft Bot Framework. The Bot answers question by leveraging the Wikipedia-API and returns a set of relevant articles.
-<<<<<<< HEAD
 
 <p align="center">
   <img src="Images/screen.gif">
 </p>
-=======
->>>>>>> 5a5722aff465d1d436aaa437a30de1ca97d06142
 
 ## Getting started
 
@@ -34,9 +31,9 @@ Click on "Import new app" and select the file _BotStarter-LUIS.json_ in the LUIS
 
 ![](Images/intents.png)
 
-Our Bot understands three types of questions: Greeting, Help and None. If you click on "Greeting", you'll see sample sentences (utterances) that indicate that whenever a users types things like this, this should be treated as a greeting in out bot. Thanks to the power of neural networks, you don't have to enter all conceivable greetings, several samples should be enough for LUIS to learn, how greetings typically look like.
+Our Bot understands three types of questions: Greeting, Help and SearchRequest. If you click on "Greeting", you'll see sample sentences (utterances) that indicate that whenever a users types things like this, this should be treated as a greeting in out bot. Thanks to the power of neural networks, you don't have to enter all conceivable greetings, several samples should be enough for LUIS to learn, how greetings typically look like.
 
-To acutally start the learning process, click on "Train" in the upper right corner, this just takes a few seconds.
+To actually start the learning process, click on "Train" in the upper right corner, this just takes a few seconds.
 Next, go to the "Publish" page and click on "Publish".
 
 ![](Images/publish.png)
@@ -69,11 +66,10 @@ to run the Bot.
 
 ### 3) Test the Bot
 
+Open Bot Framework Emulator and click on _File_ > _New Bot_. Enter a name for your bot and the URI our bot is listening on (in this example it would be http://localhost:3978/api/messages). Click on "Save and connect".
 
-## Investigate the code
+![](Images/emulator.png)
 
-<<<<<<< HEAD
-_Coming soon_
-=======
-_Coming soon_
->>>>>>> 5a5722aff465d1d436aaa437a30de1ca97d06142
+Bot Framework Emulator may be a bit laggy, but after a while you should be able to type messages into the textfield and receive answers
+
+<img src="Images/screen.gif">
