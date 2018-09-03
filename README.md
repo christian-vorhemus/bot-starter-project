@@ -65,7 +65,7 @@ npm start
 ```
 to run the Bot.
 
-### 3) Test the Bot
+### 4) Test the Bot
 
 Open Bot Framework Emulator and click on _File_ > _New Bot_. Enter a name for your bot and the URI our bot is listening on (in this example it would be http://localhost:3978/api/messages). Click on "Save and connect".
 
