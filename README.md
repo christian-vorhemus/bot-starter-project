@@ -71,6 +71,6 @@ Open Bot Framework Emulator and click on _File_ > _New Bot_. Enter a name for yo
 
 <img src="Images/emulator.png" width="600" />
 
-Bot Framework Emulator may be a bit laggy, but after a while you should be able to type messages into the textfield and receive answers
+Bot Framework Emulator may be a bit laggy, but after a while you should be able to type messages into the textfield and receive answers.
 
 <img src="Images/screen.gif" width="600">
