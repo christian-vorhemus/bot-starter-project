@@ -12,7 +12,7 @@ If you haven't done it so far, install the following tools:
 1. <a href="https://nodejs.org/en/download/" target="_blank">Node.js</a>
 2. <a href="https://www.typescriptlang.org/#download-links" target="_blank">TypeScript</a>
 3. <a href="https://github.com/Microsoft/BotFramework-Emulator/releases" target="_blank">Bot Framework Emulator</a>
-4. Your favorite IDE (if you need a recommendation... take <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>! Alternatively, you can install Visual Studio with NodeJS Workload)
+4. Your favorite IDE (if you need a recommendation... take <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>! Alternatively, you can install <a href="https://visualstudio.microsoft.com/en/downloads/" target="_blank">Visual Studio</a> with NodeJS Workload)
 
 ### 1) Install the Bot
 Download or clone this repository
